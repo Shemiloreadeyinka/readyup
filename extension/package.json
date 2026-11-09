@@ -1,0 +1,26 @@
+{
+  "name": "cv-tailor-extension",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CV Tailor Chrome extension",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "zip": "wxt zip",
+    "postinstall": "wxt prepare",
+    "test": "wxt build && node --test tests/"
+  },
+  "dependencies": {
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@wxt-dev/module-react": "^1.1.3",
+    "jsdom": "^25.0.1",
+    "tailwindcss": "^4.0.0",
+    "wxt": "^0.19.13"
+  }
+}

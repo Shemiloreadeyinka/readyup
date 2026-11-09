@@ -1,0 +1,9 @@
+node_modules/
+.output/
+.wxt/
+dist/
+.env
+backend/data/
+backend/tmp/
+*.log
+.DS_Store

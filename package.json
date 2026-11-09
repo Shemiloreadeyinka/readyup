@@ -1,0 +1,14 @@
+{
+  "name": "cv-tailor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-powered Chrome extension for tailoring CVs to job listings",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix extension install",
+    "backend": "npm --prefix backend start",
+    "backend:dev": "npm --prefix backend run dev",
+    "extension:dev": "npm --prefix extension run dev",
+    "extension:build": "npm --prefix extension run build",
+    "test": "npm --prefix backend test && npm --prefix extension test"
+  }
+}
